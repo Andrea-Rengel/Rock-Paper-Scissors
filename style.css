@@ -1,0 +1,112 @@
+/*Fonts*/
+
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/playfairdisplay/v22/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKfsunDXbtM.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/sourcesanspro/v14/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7l.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }  
+  
+/*All*/
+
+html, body {
+    padding: 0;
+    margin: 0;
+    background-color: #EFF8F3;
+}
+
+/*Font Styles*/
+
+h1 {
+    color: #341A04;
+    font-family: 'Playfair Display', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    color: #341A04;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+/*Buttons*/
+
+.botton-section {
+    display: flex;
+    justify-content: center;
+}
+
+#rock {
+    background-image: url('./Rock.png');
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120px 109px;
+}
+
+#paper {
+    background-image: url('./Paper.png');
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130px 120px;
+}
+
+#scissor {
+    background-image: url('./Scissor.png');
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 130px 120px;
+}
+
+.btn {
+    margin-right: 10px;
+    background-color: #EFF8F3;
+    border: 0;
+    border-radius: 40px;
+}
+
+.btn:hover {
+    background-color: #2B818E;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px #7DA7D170;
+}
+
+.btn:active {
+    transform: translateY(2px);
+    box-shadow: 0px 0px 0px 0px;
+}
+
+.result-section {
+    line-height: 5px;
+}
+
+/*Computer result image*/
+
+.rock-computer {
+    height: 100px;
+    width: 110px;
+    margin-top: 10px;
+}
+
+.computer-image {
+    display: flex;
+    justify-content: center;
+}
